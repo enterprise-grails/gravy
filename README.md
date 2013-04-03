@@ -3,7 +3,7 @@ gravy.bat
 
 _Gravy_ is a simple Grails version manager for Windows OS.
 
-When it comes to managing multiple Grails versions within a host, *nix developers enjoy the benefits of the [GVM](http://gvmtool.net/) tool. Those using Windows OS are however stuck with rather mundane task of tweaking system variables back and forth. It is true that GVM supports [Cygwin](http://cygwin.com/), but Grails shell still has some rough edges in this environment (at least based on my experience, anyway, your millage may vary). In addition, even Cygwin is often not an option for corporate Grails users, who are also those most likely running Windows OS.
+When it comes to managing multiple Grails versions within a host, *nix developers enjoy the benefits of the [GVM](http://gvmtool.net/) tool. Those using Windows OS are however stuck with rather mundane task of tweaking system variables back and forth. It is true that GVM supports [Cygwin](http://cygwin.com/), but Grails shell still has some [rough edges](http://jira.grails.org/browse/GRAILS-8252) in this environment (at least based on my experience, anyway, your millage may vary). In addition, even Cygwin is often not an option for corporate Grails users, who are also those most likely running Windows OS.
 
 Gravy has no intention of competing with GVM and its rich functionality set. Instead, it only addresses the task of switching locally present Grails versions within the active command shell.
 
