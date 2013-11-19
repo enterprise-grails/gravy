@@ -14,7 +14,7 @@ Installation
 
 2. Unpack any desired Grails version into a separate sub-directory within the common home. The sub-directory name should correspond to the Grails version within, e.g. `C:\Grails\2.2.0`. Note that you can add or remove a version any time.
 
-3. Optionally, configure one version as default. This is useful when majority of projects are using one Grails version while others are needed for occasional maintenance tasks. Create `GRAILS_HOME` system variable that refers the full path to the specific version sub-directory, e.g. `GRAILS_ROOT=%GRAILS_ROOT%\2.2.0`. Add the path to the executables to the `PATH` system variable. e.g. `PATH=%GRAILS_HOME%\bin;%PATH%`.
+3. Optionally, configure one version as default. This is useful when majority of projects are using one Grails version while others are needed for occasional maintenance tasks. Create `GRAILS_HOME` system variable that refers the full path to the specific version sub-directory, e.g. `GRAILS_HOME=%GRAILS_ROOT%\2.2.0`. Add the path to the executables to the `PATH` system variable. e.g. `PATH=%GRAILS_HOME%\bin;%PATH%`.
 
 4. Download and put `gravy.bat` script somewhere within the system and add the respective directory to the `PATH` system variable, if not already there.
 
